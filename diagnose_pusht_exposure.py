@@ -92,10 +92,11 @@ def analytical_reference(policy, clean, noise, timestep, condition_data, conditi
     return state
 
 
-def reverse_self_exposure(policy, scheduler, start_state, start_timestep, depth,
-        condition_data, condition_mask):
+def reverse_self_exposure(policy, scheduler, next_timestep, start_state, start_timestep,
+        depth, condition_data, condition_mask):
     state = start_state.clone()
-    for timestep in range(start_timestep, start_timestep - depth, -1):
+    timestep = start_timestep
+    for _ in range(depth):
         state[condition_mask] = condition_data[condition_mask]
         step_tensor = torch.tensor(timestep, device=state.device)
         prediction = policy.model(state, step_tensor)
@@ -103,7 +104,8 @@ def reverse_self_exposure(policy, scheduler, start_state, start_timestep, depth,
             prediction, timestep, state, eta=0.0
         ).prev_sample
         state[condition_mask] = condition_data[condition_mask]
-    return state
+        timestep = next_timestep[timestep]
+    return state, timestep
 
 
 def aggregate(records):
@@ -113,7 +115,12 @@ def aggregate(records):
     summary = []
     metric_names = ('state_gap', 'prediction_gap', 'oracle_error', 'self_error', 'delta_error')
     for (timestep, depth), values in sorted(groups.items()):
-        row = {'source_timestep': timestep, 'depth': depth, 'n_seeds': len(values)}
+        row = {
+            'source_timestep': timestep,
+            'target_timestep': values[0]['target_timestep'],
+            'depth': depth,
+            'n_seeds': len(values),
+        }
         for metric in metric_names:
             numbers = np.asarray([value[metric] for value in values], dtype=np.float64)
             row[f'{metric}_mean'] = float(numbers.mean())
@@ -162,7 +169,9 @@ def save_heatmaps(summary, output_dir):
 @click.option('--seeds', default='0,1,2', show_default=True)
 @click.option('--timesteps', default='90,50,10', show_default=True)
 @click.option('--depths', default='1,2,4', show_default=True)
-def main(checkpoint, output_dir, device, batch_size, seeds, timesteps, depths):
+@click.option('--num_inference_steps', default=100, show_default=True, type=int)
+def main(checkpoint, output_dir, device, batch_size, seeds, timesteps, depths,
+        num_inference_steps):
     """Run the first controlled Phase 1 exposure-bias diagnostic."""
     seed_values = parse_ints(seeds, 'seeds')
     timestep_values = parse_ints(timesteps, 'timesteps')
@@ -171,8 +180,8 @@ def main(checkpoint, output_dir, device, batch_size, seeds, timesteps, depths):
         raise click.BadParameter('batch_size must be positive')
     if min(depth_values) <= 0 or min(timestep_values) <= 0:
         raise click.BadParameter('timesteps and depths must be positive')
-    if max(depth_values) >= min(timestep_values):
-        raise click.BadParameter('every requested depth must be less than every timestep')
+    if num_inference_steps <= 0:
+        raise click.BadParameter('num_inference_steps must be positive')
 
     output_dir.mkdir(parents=True, exist_ok=False)
     resolved_device = torch.device(device)
@@ -184,11 +193,24 @@ def main(checkpoint, output_dir, device, batch_size, seeds, timesteps, depths):
         raise click.BadParameter(f'batch_size exceeds dataset length {len(dataset)}')
 
     scheduler = DDIMScheduler.from_config(policy.noise_scheduler.config)
-    scheduler.set_timesteps(policy.num_inference_steps, device=resolved_device)
-    scheduler_timesteps = {int(item) for item in scheduler.timesteps.tolist()}
+    scheduler.set_timesteps(num_inference_steps, device=resolved_device)
+    scheduler_values = [int(item) for item in scheduler.timesteps.tolist()]
+    scheduler_timesteps = set(scheduler_values)
     missing_timesteps = sorted(set(timestep_values) - scheduler_timesteps)
     if missing_timesteps:
         raise RuntimeError(f'Requested timesteps are not in DDIM schedule: {missing_timesteps}')
+    next_timestep = {
+        timestep: scheduler_values[index + 1]
+        for index, timestep in enumerate(scheduler_values[:-1])
+    }
+    for source_timestep in timestep_values:
+        current_timestep = source_timestep
+        for _ in range(max(depth_values)):
+            if current_timestep not in next_timestep:
+                raise click.BadParameter(
+                    f'source timestep {source_timestep} cannot support all requested depths'
+                )
+            current_timestep = next_timestep[current_timestep]
 
     records = []
     started = time.time()
@@ -206,9 +228,8 @@ def main(checkpoint, output_dir, device, batch_size, seeds, timesteps, depths):
                     policy, clean, noise, source_timestep, condition_data, condition_mask
                 )
                 for depth in depth_values:
-                    target_timestep = source_timestep - depth
-                    self_state = reverse_self_exposure(
-                        policy, scheduler, source_reference, source_timestep, depth,
+                    self_state, target_timestep = reverse_self_exposure(
+                        policy, scheduler, next_timestep, source_reference, source_timestep, depth,
                         condition_data, condition_mask
                     )
                     reference_state = analytical_reference(
@@ -256,6 +277,7 @@ def main(checkpoint, output_dir, device, batch_size, seeds, timesteps, depths):
         'seeds': seed_values,
         'source_timesteps': timestep_values,
         'depths': depth_values,
+        'num_inference_steps': num_inference_steps,
         'scheduler': 'DDIMScheduler eta=0.0',
         'shared_noise': True,
         'reference': 'analytical q(x_(t-m) | x_0, epsilon), with conditioning restored',
