@@ -1,0 +1,2 @@
+data_noise_seed,source_timestep,target_timestep,total_depth,reset_depth,reset_timestep,E_q,E_free,E_reset,reset_gain,reset_recovery_fraction,pre_reset_d_action_l2,action_elements
+0,95,91,4,2,93,0.015914805233478546,0.015923671424388885,0.015839599072933197,8.407235145568848e-05,9.48235294117647,0.04974594712257385,64

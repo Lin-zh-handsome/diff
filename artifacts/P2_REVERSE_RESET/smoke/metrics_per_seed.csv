@@ -1,0 +1,2 @@
+seed,source_timestep,target_timestep,total_depth,reset_depth,oracle_error,free_error,reset_error,free_minus_oracle,reset_minus_oracle,reset_gain,pre_reset_state_gap,recovery_ratio
+0,20,16,4,2,0.0001266569597646594,0.00014004054537508637,0.00013315893011167645,1.3383585610426962e-05,6.50197034701705e-06,6.881615263409913e-06,1.9007347873412073e-05,0.5141832288985804

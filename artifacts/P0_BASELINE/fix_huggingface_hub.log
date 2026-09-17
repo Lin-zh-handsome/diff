@@ -1,0 +1,20 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting huggingface_hub==0.13.4
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/df/90/5ad98abead047169f4f86bc67e99020c841d71c9c6bd202e04af71e70e53/huggingface_hub-0.13.4-py3-none-any.whl (200 kB)
+[?25l     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/200.1 kB[0m [31m?[0m eta [36m-:--:--[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━━━━━━━━━━━━━━━━━[0m [32m112.6/200.1 kB[0m [31m3.8 MB/s[0m eta [36m0:00:01[0m[2K     [91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m[91m╸[0m[90m━[0m [32m194.6/200.1 kB[0m [31m2.7 MB/s[0m eta [36m0:00:01[0m[2K     [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m200.1/200.1 kB[0m [31m2.4 MB/s[0m eta [36m0:00:00[0m
+[?25hRequirement already satisfied: packaging>=20.9 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from huggingface_hub==0.13.4) (26.3)
+Requirement already satisfied: requests in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from huggingface_hub==0.13.4) (2.32.5)
+Requirement already satisfied: pyyaml>=5.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from huggingface_hub==0.13.4) (6.0.2)
+Requirement already satisfied: filelock in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from huggingface_hub==0.13.4) (3.19.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from huggingface_hub==0.13.4) (4.14.1)
+Requirement already satisfied: tqdm>=4.42.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from huggingface_hub==0.13.4) (4.64.1)
+Requirement already satisfied: certifi>=2017.4.17 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->huggingface_hub==0.13.4) (2025.8.3)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->huggingface_hub==0.13.4) (1.26.19)
+Requirement already satisfied: idna<4,>=2.5 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->huggingface_hub==0.13.4) (3.11)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->huggingface_hub==0.13.4) (3.4.3)
+Installing collected packages: huggingface_hub
+  Attempting uninstall: huggingface_hub
+    Found existing installation: huggingface_hub 0.34.4
+    Uninstalling huggingface_hub-0.34.4:
+      Successfully uninstalled huggingface_hub-0.34.4
+Successfully installed huggingface_hub-0.13.4

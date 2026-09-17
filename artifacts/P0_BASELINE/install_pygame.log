@@ -1,0 +1,5 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting pygame==2.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f8/50/b66e54176f785ce6a812f63f870995b345110698e22dda214d5087dc506e/pygame-2.1.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (21.9 MB)
+Installing collected packages: pygame
+Successfully installed pygame-2.1.2

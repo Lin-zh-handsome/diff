@@ -1,0 +1,4556 @@
+2 channel Terms of Service accepted
+Retrieving notices: - \ | / done
+Channels:
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch3d
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+Solving environment: - \ | done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 26.1.1
+    latest version: 26.7.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+Downloading and Extracting Packages: ...working...pytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[A
+
+
+
+
+libopencv-4.6.0      | 35.3 MB   |            |   0% [A[A[A[A[A
+
+
+
+
+
+libllvm15-15.0.7     | 31.5 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libllvm11-11.1.0     | 28.8 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pytorch3d-0.7.0      | 26.5 MB   |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+scipy-1.9.1          | 26.2 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libdb-6.2.32         | 23.3 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.9.18        | 22.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+cmake-3.24.3         | 16.8 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+boost-cpp-1.81.0     | 15.8 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-70.1             | 13.5 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pandas-2.2.3         | 12.3 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 11.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-4.4.2         | 10.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+arrow-cpp-8.0.0      | 9.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% pytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   1% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   1% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   1% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   1% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   1% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | 1          |   1% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   1% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | 1          |   1% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | 1          |   1% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 1          |   1% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | 1          |   2% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 1          |   2% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | 2          |   3% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 2          |   2% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | 3          |   3% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | 2          |   3% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   1% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | 3          |   4% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  |            |   1% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 3          |   3% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  |            |   1% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 3          |   3% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | 4          |   4% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  |            |   1% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 3          |   3% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | 4          |   5% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% pytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   1% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | 4          |   5% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   1% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 4          |   4% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | 5          |   6% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | 7          |   7% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 5          |   5% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   1% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | 7          |   7% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   1% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   2% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | 7          |   8% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 6          |   6% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | 8          |   9% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   2% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #          |  10% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 7          |   8% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   2% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | 8          |   8% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 1          |   2% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #1         |  11% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 8          |   8% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #1         |  12% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | 8          |   9% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   2% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #1         |  12% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   2% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 9          |   9% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | 9          |  10% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #3         |  13% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   2% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | 9          |  10% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #3         |  13% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   2% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   2% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #3         |  14% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   2% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #3         |  14% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   3% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #          |  10% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #4         |  15% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   3% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #1         |  11% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #5         |  16% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #6         |  16% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #2         |  12% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   3% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #6         |  16% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 2          |   3% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #2         |  12% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #6         |  16% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   3% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #3         |  14% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #7         |  18% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #7         |  18% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   3% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #4         |  14% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #8         |  18% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   3% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #8         |  19% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #4         |  15% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #9         |  19% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #5         |  15% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   3% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #5         |  15% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #9         |  20% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #5         |  16% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #9         |  20% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   3% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #6         |  16% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##         |  21% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   4% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ##1        |  21% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##1        |  22% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   4% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   4% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #6         |  17% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   4% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #7         |  18% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% pytorch-1.12.1       | 1.20 GB   |            |   0% pytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #7         |  18% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #8         |  18% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##1        |  22% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 3          |   4% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #8         |  19% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ##2        |  22% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   4% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##3        |  23% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #8         |  19% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   4% [A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ##4        |  24% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #9         |  19% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #9         |  19% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##         |  20% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   4% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##         |  20% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ##4        |  25% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   4% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% pytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   4% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##4        |  25% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   5% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##5        |  25% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   0% pytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##         |  21% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  |            |   1% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##5        |  25% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   0% 
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##1        |  22% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##6        |  26% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##2        |  22% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##2        |  22% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   5% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##6        |  27% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ##6        |  27% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##7        |  27% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##2        |  23% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##3        |  23% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##7        |  27% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##3        |  23% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##7        |  28% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##3        |  23% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 4          |   5% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##3        |  24% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ##7        |  28% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##3        |  24% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##8        |  28% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##3        |  24% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ##8        |  29% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##4        |  24% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##8        |  29% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##4        |  25% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##9        |  29% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##9        |  29% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ##9        |  30% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##4        |  25% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###        |  30% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##5        |  25% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###        |  30% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##5        |  26% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###        |  31% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   5% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##5        |  26% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###        |  31% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##6        |  26% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###1       |  31% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###1       |  31% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##6        |  26% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###1       |  31% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##6        |  26% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###1       |  32% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##6        |  27% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###2       |  32% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##7        |  27% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% pytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###2       |  32% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##7        |  27% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###2       |  33% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##7        |  28% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##7        |  28% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###2       |  33% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###3       |  33% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##7        |  28% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##7        |  28% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###3       |  33% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##8        |  28% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###3       |  34% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   1% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##8        |  28% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 5          |   6% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##8        |  29% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###3       |  34% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###3       |  34% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##8        |  29% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###4       |  34% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##9        |  29% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###4       |  35% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##9        |  29% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###4       |  35% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##9        |  29% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##9        |  30% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##9        |  30% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ##9        |  30% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###4       |  35% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###5       |  35% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###5       |  36% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  30% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  30% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###5       |  36% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  30% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###5       |  36% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  31% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###5       |  36% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  31% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###6       |  36% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  31% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  31% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   6% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###        |  31% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  31% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###6       |  36% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  31% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  31% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###6       |  37% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  31% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###6       |  37% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  31% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  31% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###6       |  37% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  31% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###6       |  37% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  32% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  32% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###7       |  37% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###7       |  37% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###7       |  37% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###1       |  32% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###7       |  37% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###7       |  38% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###2       |  32% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###7       |  38% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% pytorch-1.12.1       | 1.20 GB   |            |   1% pytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###8       |  38% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###2       |  33% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###8       |  38% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###2       |  33% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###8       |  38% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###8       |  39% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###8       |  39% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###3       |  33% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###8       |  39% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###3       |  33% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 6          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###8       |  39% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  39% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  39% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###3       |  34% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  39% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  34% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  39% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  39% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  34% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  40% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  34% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  34% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  40% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  35% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  40% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  35% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  40% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  35% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  35% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###4       |  35% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###5       |  35% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ###9       |  40% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###5       |  35% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####       |  40% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####       |  40% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###5       |  35% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 1          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####       |  41% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###5       |  36% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####       |  41% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###5       |  36% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   7% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####       |  41% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###5       |  36% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###6       |  36% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####1      |  41% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####1      |  41% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###6       |  36% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####1      |  42% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####1      |  42% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####1      |  42% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###6       |  36% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####1      |  42% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###6       |  37% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####2      |  42% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###6       |  37% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####2      |  42% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###7       |  37% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####2      |  42% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####2      |  42% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###7       |  37% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###7       |  37% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####2      |  43% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###7       |  37% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####2      |  43% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###7       |  38% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####2      |  43% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###7       |  38% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####3      |  43% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####3      |  43% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###7       |  38% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####3      |  43% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  38% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  38% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####3      |  43% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####3      |  44% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  38% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####3      |  44% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  38% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 7          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  38% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####3      |  44% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  44% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  39% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  44% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  39% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% pytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  44% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###8       |  39% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  45% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  39% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  45% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  45% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  39% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% pytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  39% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  45% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  39% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####4      |  45% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  40% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####5      |  45% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  40% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####5      |  45% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  40% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####5      |  45% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ###9       |  40% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####5      |  46% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####       |  40% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####       |  40% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####5      |  46% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####6      |  46% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####       |  40% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####6      |  46% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####       |  41% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####       |  41% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####       |  41% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   8% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####6      |  46% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####       |  41% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####6      |  46% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####6      |  47% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####1      |  41% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####6      |  47% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####6      |  47% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  47% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####1      |  41% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  47% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####1      |  42% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  47% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####1      |  42% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  47% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####1      |  42% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  47% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####1      |  42% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  48% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####1      |  42% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  48% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  42% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   2% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  42% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  48% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####7      |  48% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  42% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####8      |  48% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  43% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####8      |  48% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  43% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####8      |  48% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  43% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####8      |  49% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  43% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####8      |  49% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####2      |  43% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####8      |  49% [A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  43% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####8      |  49% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  49% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  49% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  43% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 8          |   9% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  43% [A[A[A[Apytorch-1.12.1       | 1.20 GB   |            |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  49% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  43% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  49% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  44% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  50% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  44% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  44% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####3      |  44% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  50% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  44% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  50% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  50% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  44% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  44% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ####9      |  50% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  44% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####      |  50% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  44% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####      |  50% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####      |  50% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  44% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####      |  50% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  45% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####      |  51% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####4      |  45% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####      |  51% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####5      |  45% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####1     |  51% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####1     |  51% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####5      |  45% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |   9% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####1     |  51% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####5      |  45% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####5      |  46% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####1     |  51% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####1     |  52% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####5      |  46% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####5      |  46% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####1     |  52% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####1     |  52% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####6      |  46% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####2     |  52% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####6      |  46% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####6      |  46% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####2     |  52% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####2     |  52% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####6      |  47% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####6      |  47% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####6      |  47% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####2     |  53% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####7      |  47% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####2     |  53% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####7      |  47% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####7      |  47% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####7      |  47% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####2     |  53% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####7      |  47% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####3     |  53% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####7      |  48% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####3     |  53% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | 9          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####7      |  48% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####3     |  54% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  48% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####3     |  54% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  48% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  48% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####3     |  54% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  48% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% pytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####4     |  54% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  49% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####4     |  54% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  49% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  49% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####4     |  54% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####4     |  55% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####8      |  49% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####4     |  55% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####9      |  49% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####9      |  49% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####4     |  55% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####4     |  55% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 2          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####9      |  49% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####5     |  55% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####9      |  50% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ####9      |  50% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####5     |  55% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####      |  50% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####5     |  56% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  10% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####      |  50% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####5     |  56% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####      |  50% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####5     |  56% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####      |  50% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####5     |  56% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####      |  51% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####6     |  56% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####6     |  56% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####6     |  56% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####      |  51% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  51% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  51% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% pytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  51% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####6     |  57% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  51% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####6     |  57% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  52% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####6     |  57% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  52% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####6     |  57% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  52% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  52% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  57% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####1     |  52% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% pytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  57% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####2     |  52% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  57% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####2     |  52% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  58% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  58% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####2     |  53% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  58% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####2     |  53% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  58% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #          |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####3     |  53% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####7     |  58% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  58% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####3     |  53% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  58% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  58% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####3     |  53% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  58% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####3     |  54% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  58% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####3     |  54% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  58% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  59% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####3     |  54% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  59% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####3     |  54% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####4     |  54% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  59% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####8     |  59% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####4     |  55% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  59% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####4     |  55% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  59% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####4     |  55% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  59% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####4     |  55% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  59% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  55% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  55% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  55% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  59% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  55% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  59% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  56% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  60% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  56% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  60% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  56% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  11% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  56% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #####9     |  60% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####5     |  56% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######     |  60% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####6     |  56% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######     |  60% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####6     |  56% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####6     |  56% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####6     |  57% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######     |  60% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######     |  61% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####6     |  57% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######     |  61% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####7     |  57% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####7     |  57% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######1    |  61% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######1    |  61% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   3% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####7     |  58% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######1    |  61% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####7     |  58% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######1    |  61% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####8     |  58% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######1    |  62% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####8     |  58% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #1         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####8     |  59% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######1    |  62% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  62% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####8     |  59% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####9     |  59% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  62% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####9     |  59% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  62% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  62% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####9     |  59% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  62% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  63% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####9     |  60% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  63% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####9     |  60% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  63% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #####9     |  60% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  63% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######     |  60% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######2    |  63% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######     |  60% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  63% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  63% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  63% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  63% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######     |  60% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  63% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######     |  61% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  63% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######     |  61% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######     |  61% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  64% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######1    |  61% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  12% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  64% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######1    |  61% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######3    |  64% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######1    |  61% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  64% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######1    |  62% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  64% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######1    |  62% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  64% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######1    |  62% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  64% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  65% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  62% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  65% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  62% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  65% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  62% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  65% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  62% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######4    |  65% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  63% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  65% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  63% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  65% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  65% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  63% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  63% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######2    |  63% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  65% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  63% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  65% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  63% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   1% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  66% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  63% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  66% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  63% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  66% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  63% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######5    |  66% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  64% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #2         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  66% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  64% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  66% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  64% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  66% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######3    |  64% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  66% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  64% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  67% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  64% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  67% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  64% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  67% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  64% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  65% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  67% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  65% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######6    |  67% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  67% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  65% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  67% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######4    |  65% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  67% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  65% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  67% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  65% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  67% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  65% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  67% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  65% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  68% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  65% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  68% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% pytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######7    |  68% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  66% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  68% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  66% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  68% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 3          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  68% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######5    |  66% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  13% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  68% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  66% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  68% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  69% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  66% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  69% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  69% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  66% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  66% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  69% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  66% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  69% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  66% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  67% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  67% [A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  67% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######8    |  69% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ######9    |  69% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######6    |  67% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######7    |  67% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######7    |  67% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######9    |  69% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######7    |  67% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ######9    |  70% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######7    |  68% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######    |  70% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######7    |  68% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######    |  70% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######8    |  68% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######    |  70% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######8    |  68% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######    |  71% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######8    |  68% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######    |  71% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######8    |  68% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #3         |  14% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######8    |  68% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######    |  71% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######    |  71% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######1   |  71% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######8    |  69% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######1   |  71% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######8    |  69% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######1   |  71% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######9    |  69% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######1   |  72% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######1   |  72% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######9    |  69% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######2   |  72% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######2   |  72% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######9    |  69% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######2   |  72% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######9    |  69% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######2   |  72% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######9    |  70% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######9    |  70% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######2   |  73% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ######9    |  70% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######2   |  73% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######    |  70% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######3   |  73% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######    |  70% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######    |  70% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######3   |  73% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######    |  71% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######3   |  73% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######    |  71% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######3   |  73% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  14% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######    |  71% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######3   |  74% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######    |  71% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######1   |  71% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######3   |  74% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######1   |  71% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######1   |  71% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######3   |  74% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######1   |  72% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######4   |  74% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######1   |  72% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######4   |  74% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######4   |  74% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######4   |  75% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######1   |  72% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######2   |  72% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######2   |  72% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######4   |  75% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######2   |  72% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######5   |  75% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######2   |  73% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######2   |  73% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######5   |  75% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   4% [A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######2   |  73% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######5   |  76% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######2   |  73% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######5   |  76% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######3   |  73% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######5   |  76% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######3   |  73% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #4         |  15% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######6   |  76% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######3   |  73% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######6   |  76% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######3   |  73% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######6   |  76% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######6   |  76% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######3   |  74% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######6   |  77% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######3   |  74% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######6   |  77% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######4   |  74% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######6   |  77% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #######7   |  77% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######4   |  74% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######4   |  74% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######7   |  77% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######4   |  74% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######7   |  77% [A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######7   |  77% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######4   |  75% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######4   |  75% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######7   |  78% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######7   |  78% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######7   |  78% [A[A[A2 channel Terms of Service accepted
+Retrieving notices: - \ | / - \ | / - \ | / - \ | / done
+Channels:
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch3d
+ - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / done
+Solving environment: \ | / - done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 26.1.1
+    latest version: 26.7.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+Downloading and Extracting Packages: ...working...pytorch-1.12.1       | 1.20 GB   |            |   0% 
+cudatoolkit-11.6.2   | 598.8 MB  |            |   0% [A
+
+mkl-2023.2.0         | 156.2 MB  |            |   0% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   |            |   0% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   |            |   0% [A[A[A[A
+
+
+
+
+libopencv-4.6.0      | 35.3 MB   |            |   0% [A[A[A[A[A
+
+
+
+
+
+libllvm15-15.0.7     | 31.5 MB   |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libllvm11-11.1.0     | 28.8 MB   |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+pytorch3d-0.7.0      | 26.5 MB   |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+scipy-1.9.1          | 26.2 MB   |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+libdb-6.2.32         | 23.3 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+python-3.9.18        | 22.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+cmake-3.24.3         | 16.8 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+boost-cpp-1.81.0     | 15.8 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+icu-70.1             | 13.5 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pandas-2.2.3         | 12.3 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scikit-image-0.19.3  | 11.7 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffmpeg-4.4.2         | 10.1 MB   |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+arrow-cpp-8.0.0      | 9.5 MB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #######4   |  75% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 4          |   5% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #######8   |  78% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #5         |  15% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #6         |  16% [A[Apytorch-1.12.1       | 1.20 GB   | 1          |   2% pytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | ########3  |  84% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #6         |  17% [A[A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  17% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ########6  |  86% [A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [Apytorch-1.12.1       | 1.20 GB   | 2          |   2% pytorch-1.12.1       | 1.20 GB   | 2          |   2% pytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  17% [A[A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ########7  |  88% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########   |  80% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [Apytorch-1.12.1       | 1.20 GB   | 2          |   2% pytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ########8  |  89% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ########9  |  89% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ########9  |  90% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########  |  91% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   5% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########1 |  91% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########1 |  92% [A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########2  |  83% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% pytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########1 |  92% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########2 |  92% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########3 |  93% [A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########3 |  94% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########3  |  84% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #########4 |  95% [A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #########5 |  95% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #7         |  18% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########5 |  96% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########4  |  85% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #########6 |  96% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########5  |  86% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########6 |  97% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########6  |  86% [A[A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########6 |  97% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #########7 |  97% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########6  |  87% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | #########7 |  97% [A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########7 |  98% [A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########7  |  87% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########8 |  98% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########8 |  98% [A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########7  |  88% [A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | #########9 | 100% [A[A[A
+
+
+qt-main-5.15.6       | 52.3 MB   | ########## | 100% [A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########9  |  89% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+qt-main-5.15.6       | 52.3 MB   | ########## | 100% [A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+
+
+libopencv-4.6.0      | 35.3 MB   |            |   0% [A[A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  18% [A[A
+
+
+
+
+libopencv-4.6.0      | 35.3 MB   |            |   0% [A[A[A[A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | ########9  |  90% [A[A[A[A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  19% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+
+
+
+pillow-9.2.0         | 45.3 MB   | #########  |  91% [A[A[A[Apytorch-1.12.1       | 1.20 GB   | 2          |   2% 
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  19% [A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+
+
+libopencv-4.6.0      | 35.3 MB   |            |   1% [A[A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+
+
+
+libopencv-4.6.0      | 35.3 MB   | 1          |   2% [A[A[A[A[A
+cudatoolkit-11.6.2   | 598.8 MB  | 5          |   6% [A
+
+mkl-2023.2.0         | 156.2 MB  | #8         |  19% [A[A
+
+
+
+pillow-9.2.0         | 45.3 MB   | #########1 |  91% [A[A[A[A2 channel Terms of Service accepted
+Retrieving notices: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Channels:
+ - pytorch
+ - pytorch3d
+ - nvidia
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Solving environment: / 

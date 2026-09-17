@@ -1,0 +1,41 @@
+{
+  "batch_size": 2,
+  "checkpoint": "/home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt",
+  "dataset_length": 10726,
+  "depths": [
+    1
+  ],
+  "device": "cuda:0",
+  "elapsed_seconds": 0.9826397895812988,
+  "experiment_id": "P1_EXPOSURE_BIAS",
+  "loss_mask": "all trajectory elements except the two observed conditioned observation steps",
+  "policy_class": "DiffusionUnetLowdimPolicy",
+  "reference": "analytical q(x_(t-m) | x_0, epsilon), with conditioning restored",
+  "scheduler": "DDIMScheduler eta=0.0",
+  "seeds": [
+    0
+  ],
+  "self_exposure": "start at q(x_t | x_0, epsilon), then m DDIM learned reverse steps",
+  "shared_noise": true,
+  "source_timesteps": [
+    10
+  ],
+  "status": "completed",
+  "summary": [
+    {
+      "delta_error_mean": -0.0002310394775122404,
+      "delta_error_std": 0.0,
+      "depth": 1,
+      "n_seeds": 1,
+      "oracle_error_mean": 0.0032822818029671907,
+      "oracle_error_std": 0.0,
+      "prediction_gap_mean": 4.112773603992537e-05,
+      "prediction_gap_std": 0.0,
+      "self_error_mean": 0.0030512423254549503,
+      "self_error_std": 0.0,
+      "source_timestep": 10,
+      "state_gap_mean": 1.50576840951544e-06,
+      "state_gap_std": 0.0
+    }
+  ]
+}

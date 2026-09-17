@@ -1,0 +1,103 @@
+{
+  "G_epsilon_definition": "MSE between epsilon predictions on action slice; auxiliary diagnostic",
+  "G_pred_definition": "MSE between reconstructed clean action predictions",
+  "X_auxiliary_definition": "full unconditioned diffusion-state metrics; not primary action evidence",
+  "batch_size": 2,
+  "checkpoint": "/home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt",
+  "data_noise_seeds": [
+    0
+  ],
+  "depths_m": [
+    1,
+    2,
+    4
+  ],
+  "device": "cuda:0",
+  "elapsed_seconds": 1.0143661499023438,
+  "experiment_id": "P1_EXPOSURE_BIAS_FIXED_TARGET_ACTION_ONLY",
+  "git_commit": "4a8492a05d4fb15352407de9787fcbdf43a152d8",
+  "num_inference_steps": 100,
+  "pairing": "fixed target k; source is exactly m DDIM reverse transitions before k",
+  "policy_class": "DiffusionUnetLowdimPolicy",
+  "primary_scope": "action slice A only",
+  "reference": "analytical q(x_k | x_0, shared epsilon), then learned reference prediction",
+  "scheduler": "DDIMScheduler eta=0.0",
+  "self_exposure": "q source followed by m deterministic learned reverse transitions to k",
+  "source_timestep_map": {
+    "(89, 1)": 90,
+    "(89, 2)": 91,
+    "(89, 4)": 93
+  },
+  "status": "completed",
+  "summary": [
+    {
+      "DeltaE_mean": 4.7316774725914e-05,
+      "DeltaE_std": 0.0,
+      "E_q_mean": 0.01080107782036066,
+      "E_q_std": 0.0,
+      "E_self_mean": 0.010848394595086575,
+      "E_self_std": 0.0,
+      "G_epsilon_X_aux_mean": 0.00010705930617405102,
+      "G_epsilon_X_aux_std": 0.0,
+      "G_epsilon_mean": 0.00015609263209626079,
+      "G_epsilon_std": 0.0,
+      "G_pred_mean": 6.124188075773418e-06,
+      "G_pred_std": 0.0,
+      "G_state_X_aux_mean": 0.00010656298400135711,
+      "G_state_X_aux_std": 0.0,
+      "G_state_mean": 0.00015513025573454797,
+      "G_state_std": 0.0,
+      "depth": 4,
+      "n_seeds": 1,
+      "source_timestep": 93,
+      "target_timestep": 89
+    },
+    {
+      "DeltaE_mean": 8.813943713903427e-05,
+      "DeltaE_std": 0.0,
+      "E_q_mean": 0.01080107782036066,
+      "E_q_std": 0.0,
+      "E_self_mean": 0.010889217257499695,
+      "E_self_std": 0.0,
+      "G_epsilon_X_aux_mean": 2.3892504032119177e-05,
+      "G_epsilon_X_aux_std": 0.0,
+      "G_epsilon_mean": 3.385257150512189e-05,
+      "G_epsilon_std": 0.0,
+      "G_pred_mean": 3.4065456020471174e-06,
+      "G_pred_std": 0.0,
+      "G_state_X_aux_mean": 2.3933807824505493e-05,
+      "G_state_X_aux_std": 0.0,
+      "G_state_mean": 3.369941623532213e-05,
+      "G_state_std": 0.0,
+      "depth": 2,
+      "n_seeds": 1,
+      "source_timestep": 91,
+      "target_timestep": 89
+    },
+    {
+      "DeltaE_mean": 4.255305975675583e-05,
+      "DeltaE_std": 0.0,
+      "E_q_mean": 0.01080107782036066,
+      "E_q_std": 0.0,
+      "E_self_mean": 0.010843630880117416,
+      "E_self_std": 0.0,
+      "G_epsilon_X_aux_mean": 5.752417109761154e-06,
+      "G_epsilon_X_aux_std": 0.0,
+      "G_epsilon_mean": 7.895069757068995e-06,
+      "G_epsilon_std": 0.0,
+      "G_pred_mean": 2.2586475552088814e-06,
+      "G_pred_std": 0.0,
+      "G_state_X_aux_mean": 5.658937425323529e-06,
+      "G_state_X_aux_std": 0.0,
+      "G_state_mean": 7.815713615855202e-06,
+      "G_state_std": 0.0,
+      "depth": 1,
+      "n_seeds": 1,
+      "source_timestep": 90,
+      "target_timestep": 89
+    }
+  ],
+  "target_timesteps_k": [
+    89
+  ]
+}

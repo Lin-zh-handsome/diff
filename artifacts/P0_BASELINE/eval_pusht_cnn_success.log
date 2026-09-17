@@ -1,0 +1,5 @@
+/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/wandb/apis/public.py:2997: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+pygame 2.1.2 (SDL 2.0.16, Python 3.9.18)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Eval PushtKeypointsRunner 1/1:   0%|                    | 0/300 [00:00<?, ?it/s]Eval PushtKeypointsRunner 1/1:  13%|█▍         | 40/300 [00:05<00:33,  7.79it/s]Eval PushtKeypointsRunner 1/1:  32%|███▌       | 96/300 [00:10<00:22,  9.01it/s]Eval PushtKeypointsRunner 1/1:  51%|█████     | 152/300 [00:16<00:15,  9.36it/s]Eval PushtKeypointsRunner 1/1:  69%|██████▉   | 208/300 [00:22<00:09,  9.57it/s]Eval PushtKeypointsRunner 1/1:  88%|████████▊ | 264/300 [00:27<00:03,  9.69it/s]                                                                                

@@ -1,0 +1,103 @@
+{
+  "artifact_layout": [
+    "README.md",
+    "manifest.yaml",
+    "source_code/",
+    "configs/",
+    "raw_results/",
+    "processed_results/",
+    "figures/",
+    "logs/"
+  ],
+  "checkpoint": {
+    "epoch": "0550",
+    "path": "/home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt"
+  },
+  "code": {
+    "git_commit": "744c5949f001b1fccc0149ba496363f48664a3b3"
+  },
+  "control": {
+    "clean_proxy_definition": "At each replan an m-independent conditional DDIM sample is paired with shared forward noise to construct the reference and self branches.",
+    "exposure_depths_m": [
+      0,
+      1,
+      2,
+      4,
+      8
+    ],
+    "max_control_steps": 8,
+    "snapshot_restore": "identical initial snapshot restored for every m per env seed"
+  },
+  "diffusion": {
+    "eta": 0.0,
+    "inference_steps": 50,
+    "prediction_type": "epsilon",
+    "scheduler": "DDIMScheduler",
+    "target_k": 48
+  },
+  "elapsed_seconds": 2.519411325454712,
+  "environment": {
+    "cuda": "11.6",
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "hostname": "ubuntu-MS-7E06",
+    "python": "3.9.18",
+    "pytorch": "1.12.1"
+  },
+  "experiment_id": "P3_EXPOSURE_CONTROLLED_TASK_PERFORMANCE",
+  "metrics": {
+    "average_reward": "mean episode return across rollouts",
+    "performance_drop_reward": "R(0)-R(m)",
+    "performance_drop_success": "SR(0)-SR(m)",
+    "success_rate": "successful rollouts / rollouts"
+  },
+  "randomness": {
+    "environment_seeds": [
+      10000
+    ],
+    "paired_generator_rule": "base + env_seed*1000 + decision_index",
+    "torch_seed_base": 20260917
+  },
+  "status": "completed",
+  "summary": [
+    {
+      "average_reward": 0.0,
+      "exposure_depth_m": 0,
+      "n_rollouts": 1,
+      "performance_drop_reward": 0.0,
+      "performance_drop_success": 0.0,
+      "success_rate": 0.0
+    },
+    {
+      "average_reward": 0.0,
+      "exposure_depth_m": 1,
+      "n_rollouts": 1,
+      "performance_drop_reward": 0.0,
+      "performance_drop_success": 0.0,
+      "success_rate": 0.0
+    },
+    {
+      "average_reward": 0.0,
+      "exposure_depth_m": 2,
+      "n_rollouts": 1,
+      "performance_drop_reward": 0.0,
+      "performance_drop_success": 0.0,
+      "success_rate": 0.0
+    },
+    {
+      "average_reward": 0.0,
+      "exposure_depth_m": 4,
+      "n_rollouts": 1,
+      "performance_drop_reward": 0.0,
+      "performance_drop_success": 0.0,
+      "success_rate": 0.0
+    },
+    {
+      "average_reward": 0.0,
+      "exposure_depth_m": 8,
+      "n_rollouts": 1,
+      "performance_drop_reward": 0.0,
+      "performance_drop_success": 0.0,
+      "success_rate": 0.0
+    }
+  ]
+}

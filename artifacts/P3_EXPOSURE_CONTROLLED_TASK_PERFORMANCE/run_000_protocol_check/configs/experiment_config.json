@@ -1,0 +1,23 @@
+{
+  "checkpoint": "/home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt",
+  "env_seeds": [
+    10000
+  ],
+  "experiment_id": "P3_EXPOSURE_CONTROLLED_TASK_PERFORMANCE",
+  "exposure_depths_m": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "max_control_steps": 8,
+  "num_inference_steps": 50,
+  "scheduler": "DDIMScheduler eta=0.0",
+  "target_timestep_k": 48,
+  "task_metrics": [
+    "success_rate",
+    "episode_return"
+  ],
+  "torch_seed_base": 20260917
+}

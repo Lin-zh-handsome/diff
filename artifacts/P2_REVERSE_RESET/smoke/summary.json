@@ -1,0 +1,55 @@
+{
+  "batch_size": 2,
+  "checkpoint": "/home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt",
+  "common_random_number_control": "shared clean trajectory and forward epsilon",
+  "dataset_length": 10726,
+  "device": "cuda:0",
+  "elapsed_seconds": 1.0148940086364746,
+  "experiment_id": "P2_REVERSE_RESET",
+  "free_branch": "K learned DDIM reverse steps from q(x_t | x_0, epsilon)",
+  "num_inference_steps": 100,
+  "policy_class": "DiffusionUnetLowdimPolicy",
+  "recovery_ratio": "(E_free - E_reset) / (E_free - E_q), reported only when denominator > 0",
+  "reset_branch": "j learned steps, replace with q(x_(t-j) | x_0, epsilon), then K-j steps",
+  "reset_depths": {
+    "4": [
+      2
+    ]
+  },
+  "scheduler": "DDIMScheduler eta=0.0",
+  "seeds": [
+    0
+  ],
+  "source_timesteps": [
+    20
+  ],
+  "status": "completed",
+  "summary": [
+    {
+      "free_error_mean": 0.00014004054537508637,
+      "free_error_std": 0.0,
+      "free_minus_oracle_mean": 1.3383585610426962e-05,
+      "free_minus_oracle_std": 0.0,
+      "n_seeds": 1,
+      "oracle_error_mean": 0.0001266569597646594,
+      "oracle_error_std": 0.0,
+      "pre_reset_state_gap_mean": 1.9007347873412073e-05,
+      "pre_reset_state_gap_std": 0.0,
+      "recovery_ratio_mean": 0.5141832288985804,
+      "recovery_ratio_std": 0.0,
+      "reset_depth": 2,
+      "reset_error_mean": 0.00013315893011167645,
+      "reset_error_std": 0.0,
+      "reset_gain_mean": 6.881615263409913e-06,
+      "reset_gain_std": 0.0,
+      "reset_minus_oracle_mean": 6.50197034701705e-06,
+      "reset_minus_oracle_std": 0.0,
+      "source_timestep": 20,
+      "target_timestep": 16,
+      "total_depth": 4
+    }
+  ],
+  "total_depths": [
+    4
+  ]
+}

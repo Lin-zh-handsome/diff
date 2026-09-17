@@ -1,0 +1,36 @@
+{
+  "action_execution": "open-loop n_action_steps plans, each restored to the identical snapshot",
+  "aggregate": {
+    "action_rmse_mean": 0.875449809610412,
+    "cumulative_reward_drop_mean": 0.007474676969443728,
+    "final_reward_drop_mean": 0.000708163980994897,
+    "n": 5,
+    "prediction_gap_mean": 0.0011242639040574432,
+    "prediction_gap_vs_cumulative_reward_drop_pearson": -0.40350601460107655,
+    "success_rate_reference": 0.0,
+    "success_rate_self": 0.0
+  },
+  "checkpoint": "/home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt",
+  "depth": 16,
+  "device": "cuda:0",
+  "elapsed_seconds": 10.15424919128418,
+  "experiment_id": "P3_CONTROL_CONSEQUENCE",
+  "num_inference_steps": 100,
+  "policy_class": "DiffusionUnetLowdimPolicy",
+  "reference_definition": "analytical q state from a conditional model-sampled x_0 proxy and shared epsilon",
+  "scheduler": "DDIMScheduler eta=0.0 for paired exposure branch",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "self_definition": "same q source state followed by deterministic learned DDIM reverse steps",
+  "snapshot_control": "get_state/set_state validated before this run",
+  "source_timestep": 90,
+  "status": "completed",
+  "target_timestep": 74,
+  "warmup_steps": 32,
+  "warning": "Proxy-reference diagnostic; it is not expert-ground-truth action evaluation."
+}

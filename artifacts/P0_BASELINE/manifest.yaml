@@ -1,0 +1,16 @@
+experiment_id: P0_BASELINE
+status: complete_for_pusht
+repository_commit: 5ba07ac6661db573af695b419a7947ecb704690f
+environment: /home/hanjinwei/miniconda3/envs/robodiff
+python: 3.9.18
+torch: 1.12.1
+cuda_runtime: 11.6
+device: NVIDIA GeForce RTX 3090 (cuda:0)
+dataset: data/pusht/pusht_cchi_v7_replay.zarr
+checkpoint: artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt
+native_command: eval.py checkpoint -> eval_pusht_cnn_success on cuda:0
+test_mean_score: 0.9134454679034143
+train_mean_score: 0.998603288941078
+test_rollouts: 50
+media_files: 6
+full_mujoco_readme_prerequisite: deferred_pending_sudo

@@ -1,0 +1,45 @@
+experiment_id: P1_EXPOSURE_BIAS_FIXED_TARGET/run_003_ddim50_seeds5_valid_targets
+status: completed
+metadata_status: post-run augmentation; metrics and metric files untouched
+host:
+  hostname: ubuntu-MS-7E06
+  gpu: NVIDIA GeForce RTX 3090
+  driver: 580.159.03
+runtime:
+  python: 3.9.18
+  pytorch: 1.12.1
+  cuda_runtime: "11.6"
+repository:
+  workspace: /home/hanjinwei/p1/project/diffusion_policy
+  git_commit: a51ca14e91cd007b01d84d2e3dbbe97835db2a26
+data:
+  dataset: /home/hanjinwei/p1/project/diffusion_policy/data/pusht/pusht_cchi_v7_replay.zarr
+  diagnostic_data_noise_seeds: [0, 1, 2, 3, 4]
+  batch_size: 64
+model:
+  checkpoint: /home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt
+  policy: DiffusionUnetLowdimPolicy EMA
+  prediction_type: epsilon
+sampler:
+  scheduler: DDIMScheduler
+  num_inference_steps: 50
+  eta: 0.0
+  shared_forward_epsilon: true
+pairing:
+  target_k: [88, 48, 8]
+  depth_m: [1, 2, 4]
+  invariant: each self branch starts exactly m DDIM reverse transitions before target k and terminates at that same k
+  grid_note: 50-step DDIM uses a distinct valid target grid; it is not represented as identical to the 100-step native timestep grid
+metrics:
+  primary_scope: action-only A_k
+  G_state: action-slice MSE between self and reference states
+  G_pred: action-only reconstructed-clean-action MSE between self and reference predictions
+  G_epsilon: action-only epsilon-prediction MSE; auxiliary diagnostic
+  E_q: action-only reference reconstructed-clean-action MSE to clean action
+  E_self: action-only self reconstructed-clean-action MSE to clean action
+  DeltaE: E_self minus E_q
+  theory_vs_experiment: theoretical formulas use L2 norms; reported G_pred and errors are MSE estimators and are not relabelled as norms
+artifacts:
+  summary: summary.json
+  per_seed_metrics: metrics_per_seed.csv
+  figures: [heatmap_G_state.png, heatmap_G_pred.png, heatmap_G_epsilon.png, heatmap_E_q.png, heatmap_E_self.png, heatmap_DeltaE.png]

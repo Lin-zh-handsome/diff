@@ -1,0 +1,2 @@
+seed,source_timestep,target_timestep,depth,state_gap,prediction_gap,oracle_error,self_error,delta_error,unconditioned_elements
+0,10,9,1,1.50576840951544e-06,4.112773603992537e-05,0.0032822818029671907,0.0030512423254549503,-0.0002310394775122404,624

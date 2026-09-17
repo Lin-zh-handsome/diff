@@ -1,0 +1,34 @@
+[1;32m2[0m[1;32m channel Terms of Service accepted[0m
+Channels:
+ - pytorch
+ - pytorch3d
+ - nvidia
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / done
+Solving environment: \ | / done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 26.1.1
+    latest version: 26.7.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+Downloading and Extracting Packages:
+pytorch-1.12.1       | 1.20 GB   |                                       |   0% 
+cudatoolkit-11.6.0   | 821.4 MB  |                                       |   0% [A                                                                                
+                                                                                [A
+
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/pytorch/linux-64/pytorch-1.12.1-py3.9_cuda11.6_cudnn8.3.2_0.tar.bz2.
+This command is using a remote connection in offline mode.
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/pytorch/linux-64/pytorch-1.12.1-py3.9_cuda11.6_cudnn8.3.2_0.tar.bz2.
+This command is using a remote connection in offline mode.
+OfflineError: EnforceUnusedAdapter called with url https://conda.anaconda.org/nvidia/linux-64/cudatoolkit-11.6.0-habf752d_9.tar.bz2.
+This command is using a remote connection in offline mode.
+

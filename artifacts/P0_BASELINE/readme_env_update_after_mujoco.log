@@ -1,0 +1,436 @@
+2 channel Terms of Service accepted
+Channels:
+ - pytorch
+ - pytorch3d
+ - nvidia
+ - conda-forge
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+Solving environment: | / - \ done
+
+
+==> WARNING: A newer version of conda exists. <==
+    current version: 26.1.1
+    latest version: 26.7.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+Installing pip dependencies: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | Ran pip subprocess with arguments:
+['/home/hanjinwei/miniconda3/envs/robodiff/bin/python', '-m', 'pip', 'install', '-U', '-r', '/home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt', '--exists-action=b']
+Pip subprocess output:
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting robosuite@ https://github.com/cheng-chi/robosuite/archive/277ab9588ad7a4f4b55cf75508b44aa67ec171f0.tar.gz
+  Using cached https://github.com/cheng-chi/robosuite/archive/277ab9588ad7a4f4b55cf75508b44aa67ec171f0.tar.gz
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting r3m@ https://github.com/facebookresearch/r3m/archive/b2334e726887fa0206962d7984c69c5fb09cceab.tar.gz
+  Using cached https://github.com/facebookresearch/r3m/archive/b2334e726887fa0206962d7984c69c5fb09cceab.tar.gz
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting ray[default,tune]==2.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ee/85/bf8841245fb1869352a901c9eb1ebe341c23a35b3df17ab0e94dc0d218c2/ray-2.2.0-cp39-cp39-manylinux2014_x86_64.whl (57.4 MB)
+Requirement already satisfied: free-mujoco-py==2.1.6 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from -r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (2.1.6)
+Requirement already satisfied: pygame==2.1.2 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from -r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 3)) (2.1.2)
+Collecting pybullet-svl==3.1.6.4
+  Using cached pybullet_svl-3.1.6.4-cp39-cp39-linux_x86_64.whl
+Collecting robomimic==0.2.0
+  Using cached robomimic-0.2.0-py3-none-any.whl
+Collecting pytorchvideo==0.1.5
+  Using cached pytorchvideo-0.1.5-py3-none-any.whl
+Collecting imagecodecs==2022.9.26
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/61/69/2bfc99b2bd9c610a779e4574c95e9d8a037b8327fadf137a7a7f625a0dad/imagecodecs-2022.9.26-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (35.0 MB)
+Collecting dm-control==1.0.9
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/16/34/e9d3224a0c4496e62cd6b6eb53fe863644ebfff19bad1c8e4fb0d26270b5/dm_control-1.0.9-py3-none-any.whl (39.3 MB)
+Requirement already satisfied: attrs in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (25.3.0)
+Requirement already satisfied: grpcio>=1.32.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.46.3)
+Requirement already satisfied: click>=7.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (8.0.4)
+Requirement already satisfied: numpy>=1.19.3 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.23.3)
+Collecting jsonschema
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/bf/9c/8c95d856233c1f82500c2450b8c68576b4cf1c871db3afac5c34ff84e6fd/jsonschema-4.25.1-py3-none-any.whl (90 kB)
+Collecting virtualenv>=20.0.24
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/85/7c/b75957b57ef372d84628b1099c4a530b3c361878cc6c54a8dfc5071d371a/virtualenv-21.7.10-py3-none-any.whl (5.3 MB)
+Requirement already satisfied: protobuf!=3.19.5,>=3.15.3 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (3.20.1)
+Requirement already satisfied: aiosignal in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.4.0)
+Requirement already satisfied: frozenlist in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.7.0)
+Requirement already satisfied: msgpack<2.0.0,>=1.0.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.1.1)
+Requirement already satisfied: filelock in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (3.19.1)
+Requirement already satisfied: pyyaml in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (6.0.2)
+Requirement already satisfied: requests in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2.32.5)
+Collecting smart-open
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ad/95/bc978be7ea0babf2fb48a414b6afaad414c6a9e8b1eafc5b8a53c030381a/smart_open-7.5.0-py3-none-any.whl (63 kB)
+Collecting py-spy>=0.2.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/34/dd7d3c763a00b7b965e25a5eab0acd1a345dbaf0f45fffe595278873a1c0/py_spy-0.4.2-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl (2.9 MB)
+Collecting opencensus
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b5/ed/9fbdeb23a09e430d87b7d72d430484b88184633dc50f6bfb792354b6f661/opencensus-0.11.4-py2.py3-none-any.whl (128 kB)
+Requirement already satisfied: aiohttp>=3.7 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (3.12.15)
+Collecting prometheus-client<0.14.0,>=0.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/53/d2/b64e76fc5df129db7cee2c071ba129ce090b2f6e7fb4c734aa9d2fc1d262/prometheus_client-0.13.1-py3-none-any.whl (57 kB)
+Collecting colorful
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c3/11/25cdf9d5fc21efd30134fc74c43702c6f7ef09ebae8ed927f1283403ad8d/colorful-0.5.8-py2.py3-none-any.whl (201 kB)
+Collecting aiohttp-cors
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/98/3b/40a68de458904bcc143622015fff2352b6461cd92fd66d3527bf1c6f5716/aiohttp_cors-0.8.1-py3-none-any.whl (25 kB)
+Collecting gpustat>=1.0.0
+  Using cached gpustat-1.1.1-py3-none-any.whl
+Collecting pydantic
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/eb/47/c95ffc2009878c7aac0c5e08528022dcb885933252a88b5f170058014464/pydantic-2.13.5-py3-none-any.whl (472 kB)
+Requirement already satisfied: pandas in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2.2.3)
+Requirement already satisfied: tensorboardX>=1.9 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2.5.1)
+Requirement already satisfied: tabulate in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (0.9.0)
+Requirement already satisfied: imageio<3.0.0,>=2.9.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (2.22.0)
+Requirement already satisfied: Cython<0.30.0,>=0.29.24 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (0.29.32)
+Requirement already satisfied: fasteners==0.15 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (0.15)
+Requirement already satisfied: cffi<2.0.0,>=1.15.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (1.15.1)
+Requirement already satisfied: glfw<2.0.0,>=1.4.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (1.12.0)
+Collecting egl_probe>=1.0.1
+  Using cached egl_probe-1.0.2-cp39-cp39-linux_x86_64.whl
+Requirement already satisfied: psutil in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (5.9.2)
+Requirement already satisfied: tensorboard in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (2.10.1)
+Requirement already satisfied: termcolor in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (2.0.1)
+Requirement already satisfied: torchvision in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (0.13.1)
+Requirement already satisfied: tqdm in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (4.64.1)
+Requirement already satisfied: h5py in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (3.7.0)
+Requirement already satisfied: imageio-ffmpeg in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (0.4.7)
+Requirement already satisfied: torch in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (1.12.1)
+Requirement already satisfied: fvcore in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pytorchvideo==0.1.5->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 7)) (0.1.5.post20221221)
+Requirement already satisfied: iopath in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pytorchvideo==0.1.5->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 7)) (0.1.10)
+Collecting parameterized
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/00/2f/804f58f0b856ab3bf21617cccf5b39206e6c4c94c2cd227bde125ea6105f/parameterized-0.9.0-py2.py3-none-any.whl (20 kB)
+Requirement already satisfied: av in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pytorchvideo==0.1.5->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 7)) (10.0.0)
+Requirement already satisfied: networkx in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pytorchvideo==0.1.5->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 7)) (3.2.1)
+Requirement already satisfied: pyparsing>=3.0.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from dm-control==1.0.9->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 10)) (3.2.3)
+Requirement already satisfied: scipy in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from dm-control==1.0.9->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 10)) (1.9.1)
+Collecting lxml
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0b/c9/bd00ce7ba1f7b6cd0c8d531921a05c750ac7582438212810e87b4f08680c/lxml-6.1.3-cp39-cp39-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+Collecting dm-env
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/08/7e/36d548040e61337bf9182637a589c44da407a47a923ee88aec7f0e89867c/dm_env-1.6-py3-none-any.whl (26 kB)
+Collecting dm-tree!=0.1.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/43/8e/f2827985b559da76497a997193d2c1fee6217de6ca2921bca2d2ffd23aca/dm_tree-0.1.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (153 kB)
+Collecting pyopengl>=3.1.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/de/e4/1ba6f44e491c4eece978685230dde56b14d51a0365bc1b774ddaa94d14cd/pyopengl-3.1.10-py3-none-any.whl (3.2 MB)
+Collecting labmaze
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2d/19/2d46c90732a1ac60a872169c4ef0a246c322d7d4ece73c47bac93dc86877/labmaze-1.0.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.9 MB)
+Requirement already satisfied: setuptools!=50.0.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from dm-control==1.0.9->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 10)) (80.9.0)
+Collecting mujoco>=2.3.1.post1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/56/0d/005f0d49ad5878f0611a7c018550b8504d480a7a17ad7e6773ff47d8627a/mujoco-3.5.0.tar.gz (912 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: absl-py>=0.7.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from dm-control==1.0.9->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 10)) (2.3.1)
+Requirement already satisfied: six in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from fasteners==0.15->free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (1.17.0)
+Requirement already satisfied: monotonic>=0.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from fasteners==0.15->free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (1.6)
+Collecting numba<=0.53.1,>=0.52.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/2e/74/dec288f1365c695ee4a271eef1bd5439693e9263431a367c5ecde045d7e5/numba-0.53.1-cp39-cp39-manylinux2014_x86_64.whl (3.4 MB)
+Collecting gdown>=4.4.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/20/ad/0e30d078a2cc84a17a81c0a1f226d617edf12ddd375dafe021fb66a2c8b0/gdown-5.2.2-py3-none-any.whl (18 kB)
+Requirement already satisfied: omegaconf>=2.1.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from r3m@ https://github.com/facebookresearch/r3m/archive/b2334e726887fa0206962d7984c69c5fb09cceab.tar.gz->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 9)) (2.2.3)
+Requirement already satisfied: hydra-core>=1.1.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from r3m@ https://github.com/facebookresearch/r3m/archive/b2334e726887fa0206962d7984c69c5fb09cceab.tar.gz->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 9)) (1.2.0)
+Requirement already satisfied: pillow>=9.0.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from r3m@ https://github.com/facebookresearch/r3m/archive/b2334e726887fa0206962d7984c69c5fb09cceab.tar.gz->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 9)) (9.2.0)
+Requirement already satisfied: async-timeout<6.0,>=4.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from aiohttp>=3.7->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (5.0.1)
+Requirement already satisfied: yarl<2.0,>=1.17.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from aiohttp>=3.7->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.20.1)
+Requirement already satisfied: aiohappyeyeballs>=2.5.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from aiohttp>=3.7->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2.6.1)
+Requirement already satisfied: multidict<7.0,>=4.5 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from aiohttp>=3.7->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (6.6.3)
+Requirement already satisfied: propcache>=0.2.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from aiohttp>=3.7->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (0.3.1)
+Requirement already satisfied: typing-extensions>=4.2 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from aiosignal->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (4.14.1)
+Requirement already satisfied: pycparser in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from cffi<2.0.0,>=1.15.0->free-mujoco-py==2.1.6->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 2)) (2.22)
+Collecting beautifulsoup4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/88/c6/92fcd42f1ba33e1184263f25bfabf3d27c383410470f169e4b8163bf9c17/beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+Collecting nvidia-ml-py>=11.450.129
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/23/45/caa600acfab94560807a20a64b5830d2cd3c3202b7f1328644d70b7d6bd8/nvidia_ml_py-13.610.43-py3-none-any.whl (53 kB)
+Collecting blessed>=1.17.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/93/79/dbf3888fa9ee5566f0acf5b87e5eeeae854b4ff8d819a564a1e73d1b5b82/blessed-1.50.0-py3-none-any.whl (140 kB)
+Requirement already satisfied: antlr4-python3-runtime==4.9.* in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from hydra-core>=1.1.1->r3m@ https://github.com/facebookresearch/r3m/archive/b2334e726887fa0206962d7984c69c5fb09cceab.tar.gz->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 9)) (4.9.3)
+Requirement already satisfied: packaging in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from hydra-core>=1.1.1->r3m@ https://github.com/facebookresearch/r3m/archive/b2334e726887fa0206962d7984c69c5fb09cceab.tar.gz->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 9)) (26.3)
+Collecting etils[epath]
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/0f/6a/d2aaebacf73d5da7126c632ec0d9dc2df99cc4bbd259bad48904a034fc1b/etils-1.5.2-py3-none-any.whl (140 kB)
+Collecting llvmlite<0.37,>=0.36.0rc1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/21/e4/bd58362e7613bce9a570278352832289b2a9f1da48e8c22e1a2f883a2167/llvmlite-0.36.0-cp39-cp39-manylinux2010_x86_64.whl (25.3 MB)
+Collecting python-discovery>=1.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/43/5e/21abf578182fb15006a57faf3711a1e659e29d600d19b6e557eae908c81d/python_discovery-1.6.0-py3-none-any.whl (38 kB)
+Collecting distlib<1,>=0.3.7
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/02/08/9c41fb51ab5b43eb21674aff13df270e8ba6c4b29c8624e328dc7a9482af/distlib-0.4.3-py2.py3-none-any.whl (470 kB)
+Requirement already satisfied: platformdirs<5,>=3.9.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from virtualenv>=20.0.24->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (4.3.8)
+Requirement already satisfied: yacs>=0.1.6 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from fvcore->pytorchvideo==0.1.5->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 7)) (0.1.8)
+Requirement already satisfied: portalocker in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from iopath->pytorchvideo==0.1.5->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 7)) (3.2.0)
+Collecting referencing>=0.28.4
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c1/b1/3baf80dc6d2b7bc27a95a67752d0208e410351e3feb4eb78de5f77454d8d/referencing-0.36.2-py3-none-any.whl (26 kB)
+Collecting jsonschema-specifications>=2023.03.6
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Collecting rpds-py>=0.7.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/74/e5/5903f92e41e293b07707d5bf00ef39a0eb2af7190aff4beaf581a6591510/rpds_py-0.27.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (384 kB)
+Collecting google-api-core<3.0.0,>=1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/03/15/e56f351cf6ef1cfea58e6ac226a7318ed1deb2218c4b3cc9bd9e4b786c5a/google_api_core-2.30.3-py3-none-any.whl (173 kB)
+Collecting opencensus-context>=0.1.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/10/68/162c97ea78c957d68ecf78a5c5041d2e25bd5562bdf5d89a6cbf7f8429bf/opencensus_context-0.1.3-py2.py3-none-any.whl (5.1 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pandas->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pandas->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pandas->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2025.2)
+Collecting pydantic-core==2.46.5
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a8/9e/0c0cc24149429c030bef1a5c1776150e7e61fcbbfc068c6d1f9de90eb259/pydantic_core-2.46.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+Collecting typing-inspection>=0.4.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/9b/47798a6c91d8bdb567fe2698fe81e0c6b7cb7ef4d13da4114b41d239f65d/typing_inspection-0.4.2-py3-none-any.whl (14 kB)
+Collecting annotated-types>=0.6.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl (13 kB)
+Requirement already satisfied: idna<4,>=2.5 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (3.11)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.26.19)
+Requirement already satisfied: certifi>=2017.4.17 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (2025.8.3)
+Requirement already satisfied: charset_normalizer<4,>=2 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (3.4.3)
+Collecting wrapt
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ac/2d/7525bd66f30f2686805aacf1055f1a06b3df87698cdac6bd0df4346adc4a/wrapt-2.4.1-cp39-cp39-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (216 kB)
+Requirement already satisfied: wheel>=0.26 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (0.45.1)
+Requirement already satisfied: markdown>=2.6.8 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (3.8.2)
+Requirement already satisfied: tensorboard-data-server<0.7.0,>=0.6.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (0.6.1)
+Requirement already satisfied: google-auth<3,>=1.6.3 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (2.40.3)
+Requirement already satisfied: tensorboard-plugin-wit>=1.6.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (1.8.1)
+Requirement already satisfied: werkzeug>=1.0.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (3.1.3)
+Requirement already satisfied: google-auth-oauthlib<0.5,>=0.4.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (0.4.6)
+Collecting wcwidth>=0.8.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c4/0e/57f6bb3024a597b2e8ec4aee710ffe62ddc95af2e2bb1ee7a7abdc22c68c/wcwidth-0.8.3-py3-none-any.whl (331 kB)
+Collecting jinxed<3,>=2.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f1/1d/0a6be99b69bb448448403a45a241aff0dca751832ae54f027ed940d2eb52/jinxed-2.1.0-py2.py3-none-any.whl (104 kB)
+Collecting google-api-core<3.0.0,>=1.0.0
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/84/e1/ebd5100cbb202e561c0c8b59e485ef3bd63fa9beb610f3fdcaea443f0288/google_api_core-2.30.2-py3-none-any.whl (173 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/43/86/a00ea4596780ef3f0721c1f073c0c5ae992da4f35cf12f0d8c92d19267a6/google_api_core-2.30.1-py3-none-any.whl (173 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/45/27/09c33d67f7e0dcf06d7ac17d196594e66989299374bfb0d4331d1038e76b/google_api_core-2.30.0-py3-none-any.whl (173 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/77/b6/85c4d21067220b9a78cfb81f516f9725ea6befc1544ec9bd2c1acd97c324/google_api_core-2.29.0-py3-none-any.whl (173 kB)
+Collecting protobuf!=3.19.5,>=3.15.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/51/61/e80b7a04f4e1b4eecc86582335205fd876abca0abafee4a6c001f70a375e/protobuf-3.19.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.1 MB)
+Collecting proto-plus<2.0.0,>=1.22.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/84/f3/1fba73eeffafc998a25d59703b63f8be4fe8a5cb12eaff7386a0ba0f7125/proto_plus-1.27.2-py3-none-any.whl (50 kB)
+Collecting googleapis-common-protos<2.0.0,>=1.56.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/e7/c8/e2645aa8ed02fd4c7a2f59d68783b65b1f3cbdfe39a6308e156509d1fee8/googleapis_common_protos-1.75.0-py3-none-any.whl (300 kB)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from google-auth<3,>=1.6.3->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (5.5.2)
+Requirement already satisfied: rsa<5,>=3.1.4 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from google-auth<3,>=1.6.3->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (4.9.1)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from google-auth<3,>=1.6.3->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (0.4.2)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from google-auth-oauthlib<0.5,>=0.4.1->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (2.0.0)
+Requirement already satisfied: importlib-metadata>=4.4 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from markdown>=2.6.8->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (8.7.0)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from werkzeug>=1.0.1->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (3.0.2)
+Collecting soupsieve>=1.6.1
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5e/f5/0c41cb68dcae6b7de4fac4188a3a9589e21fb31df21ea3a2e888db95e6c9/soupsieve-2.8.4-py3-none-any.whl (37 kB)
+Requirement already satisfied: zipp in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from etils[epath]->mujoco>=2.3.1.post1->dm-control==1.0.9->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 10)) (3.23.0)
+Requirement already satisfied: importlib_resources in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from etils[epath]->mujoco>=2.3.1.post1->dm-control==1.0.9->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 10)) (6.5.2)
+Requirement already satisfied: fsspec in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from etils[epath]->mujoco>=2.3.1.post1->dm-control==1.0.9->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 10)) (2025.7.0)
+Requirement already satisfied: PySocks!=1.5.7,>=1.5.6 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests->ray[default,tune]==2.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 1)) (1.7.1)
+Collecting googleapis-common-protos<2.0.0,>=1.56.2
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b6/b0/be5d3329badb9230b765de6eea66b73abd5944bdeb5afb3562ddcd80ae84/googleapis_common_protos-1.74.0-py3-none-any.whl (300 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/dc/82/fcb6520612bec0c39b973a6c0954b6a0d948aadfe8f7e9487f60ceb8bfa6/googleapis_common_protos-1.73.1-py3-none-any.whl (297 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/69/28/23eea8acd65972bbfe295ce3666b28ac510dfcb115fac089d3edb0feb00a/googleapis_common_protos-1.73.0-py3-none-any.whl (297 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/c4/ab/09169d5a4612a5f92490806649ac8d41e3ec9129c636754575b3553f4ea4/googleapis_common_protos-1.72.0-py3-none-any.whl (297 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/25/e8/eba9fece11d57a71e3e22ea672742c8f3cf23b35730c9e96db768b295216/googleapis_common_protos-1.71.0-py3-none-any.whl (294 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/86/f1/62a193f0227cf15a920390abe675f386dec35f7ae3ffe6da582d3ade42c7/googleapis_common_protos-1.70.0-py3-none-any.whl (294 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/f9/53/d35476d547a286506f0a6a634ccf1e5d288fffd53d48f0bd5fef61d68684/googleapis_common_protos-1.69.2-py3-none-any.whl (293 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/16/cb/2f4aa605b16df1e031dd7c322c597613eef933e8dd5b6a4414330b21e791/googleapis_common_protos-1.69.1-py2.py3-none-any.whl (293 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/1d/66/0025e2b7a2ae353acea03cf9d4a96ae32ef02c116944e2eb11f559cf4b7b/googleapis_common_protos-1.69.0-py2.py3-none-any.whl (169 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/3f/85/c99a157ee99d67cc6c9ad123abb8b1bfb476fab32d2f3511c59314548e4f/googleapis_common_protos-1.68.0-py2.py3-none-any.whl (164 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/89/30/2bd0eb03a7dee7727cd2ec643d1e992979e62d5e7443507381cce0455132/googleapis_common_protos-1.67.0-py2.py3-none-any.whl (164 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/a0/0f/c0713fb2b3d28af4b2fded3291df1c4d4f79a00d15c2374a9e010870016c/googleapis_common_protos-1.66.0-py2.py3-none-any.whl (221 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/ec/08/49bfe7cf737952cc1a9c43e80cc258ed45dad7f183c5b8276fc94cb3862d/googleapis_common_protos-1.65.0-py2.py3-none-any.whl (220 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/b7/14/3f8b5670e7e082a3735dc9a6411b4ba37af7e6662441ee66782906265632/googleapis_common_protos-1.64.0-py2.py3-none-any.whl (220 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/02/48/87422ff1bddcae677fb6f58c97f5cfc613304a5e8ce2c3662760199c0a84/googleapis_common_protos-1.63.2-py2.py3-none-any.whl (220 kB)
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/98/87/1608d23bb9879694579fff5dc56d60e3d48e012fd08670f140cf82f6cf26/googleapis_common_protos-1.63.1-py2.py3-none-any.whl (229 kB)
+Collecting proto-plus<2.0.0,>=1.22.3
+  Using cached https://pypi.tuna.tsinghua.edu.cn/packages/5d/79/ac273cbbf744691821a9cca88957257f41afe271637794975ca090b9588b/proto_plus-1.27.1-py3-none-any.whl (50 kB)
+Requirement already satisfied: pyasn1<0.7.0,>=0.6.1 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (0.6.1)
+Requirement already satisfied: oauthlib>=3.0.0 in /home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<0.5,>=0.4.1->tensorboard->robomimic==0.2.0->-r /home/hanjinwei/p1/project/diffusion_policy/condaenv.mm6hk96b.requirements.txt (line 6)) (3.3.1)
+Building wheels for collected packages: robosuite, r3m, mujoco
+  Building wheel for robosuite (setup.py): started
+  Building wheel for robosuite (setup.py): finished with status 'done'
+  Created wheel for robosuite: filename=robosuite-1.2.0-py3-none-any.whl size=90818565 sha256=6060686abd384c0ae2ce96efcffbf64365bb8f1eb034a326e0fa077aef28c022
+  Stored in directory: /tmp/pip-ephem-wheel-cache-b6gmandi/wheels/17/6b/89/0678222073641535c15c6d95f9d671cca6e13dd14793727d6b
+  Building wheel for r3m (setup.py): started
+  Building wheel for r3m (setup.py): finished with status 'done'
+  Created wheel for r3m: filename=r3m-0.0.0-py3-none-any.whl size=17334 sha256=a8bd0e307399cc4a7e8aca3407ae93d020311d94f7ac94939f08e81a6ea9f515
+  Stored in directory: /tmp/pip-ephem-wheel-cache-b6gmandi/wheels/53/c1/b1/a9fc74ba2fdc4f83d175d92a02970268fbcf451fe37aa2b768
+  Building wheel for mujoco (pyproject.toml): started
+  Building wheel for mujoco (pyproject.toml): finished with status 'error'
+Successfully built robosuite r3m
+Failed to build mujoco
+Pip subprocess error:
+  error: subprocess-exited-with-error
+  
+  × Building wheel for mujoco (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [166 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/viewer.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/msh2obj.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/minimize_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/msh2obj_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/rollout.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/minimize.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/viewer_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/render_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/gl_context.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/bindings_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/specs_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/rollout_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/memory_leak_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/renderer_test.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      copying mujoco/renderer.py -> build/lib.linux-x86_64-cpython-39/mujoco
+      creating build/lib.linux-x86_64-cpython-39/mujoco/cgl
+      copying mujoco/cgl/cgl.py -> build/lib.linux-x86_64-cpython-39/mujoco/cgl
+      copying mujoco/cgl/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/cgl
+      creating build/lib.linux-x86_64-cpython-39/mujoco/egl
+      copying mujoco/egl/egl_ext.py -> build/lib.linux-x86_64-cpython-39/mujoco/egl
+      copying mujoco/egl/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/egl
+      creating build/lib.linux-x86_64-cpython-39/mujoco/osmesa
+      copying mujoco/osmesa/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/osmesa
+      creating build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/camera.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/exporter_test.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/exporter.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/utils.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/objects.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/shapes.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/lights.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      copying mujoco/usd/demo.py -> build/lib.linux-x86_64-cpython-39/mujoco/usd
+      creating build/lib.linux-x86_64-cpython-39/mujoco/sysid
+      copying mujoco/sysid/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid
+      creating build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/ast_nodes.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/ast_nodes_test.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/enums_test.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/enums.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/structs_test.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/structs.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/functions.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/mjxmacro.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/functions_test.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/type_parsing.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      copying mujoco/introspect/type_parsing_test.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect
+      creating build/lib.linux-x86_64-cpython-39/mujoco/glfw
+      copying mujoco/glfw/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/glfw
+      creating build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/signal_transform.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/parameter.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/io.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/plotting.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/model_modifier.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/trajectory.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/signal_modifier.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/optimize.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/residual.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      copying mujoco/sysid/_src/timeseries.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/_src
+      creating build/lib.linux-x86_64-cpython-39/mujoco/sysid/report
+      copying mujoco/sysid/report/builder.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report
+      copying mujoco/sysid/report/utils.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report
+      copying mujoco/sysid/report/defaults.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report
+      creating build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/test_timeseries.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/test_integration.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/test_signal.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/conftest.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/test_parameter.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/test_trajectory.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      copying mujoco/sysid/tests/test_model_modifier.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/tests
+      creating build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/insights.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/base.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/optimization_trace.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/group.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/parameters.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/parameter_distribution.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/__init__.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/video.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/signals.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/covariance.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      copying mujoco/sysid/report/sections/row.py -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/sections
+      creating build/lib.linux-x86_64-cpython-39/mujoco/introspect/codegen
+      copying mujoco/introspect/codegen/generate_enums.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect/codegen
+      copying mujoco/introspect/codegen/formatter.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect/codegen
+      copying mujoco/introspect/codegen/generate_functions.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect/codegen
+      copying mujoco/introspect/codegen/generate_structs.py -> build/lib.linux-x86_64-cpython-39/mujoco/introspect/codegen
+      creating build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/model.xml -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/msh.xml -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/abdomen_1_body.msh -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/simple_usd_preview_surface.usda -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/usd_golden.usda -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/MJCF_Root.zip -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/MJCF_NoRoot.zip -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      copying mujoco/testdata/model.urdf -> build/lib.linux-x86_64-cpython-39/mujoco/testdata
+      creating build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/insights.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/group.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/covariance.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/optimization_trace.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/layout.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/parameters_table.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/video.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/plot_generic.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/signals.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/parameter_confidence.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/report/templates/row.html -> build/lib.linux-x86_64-cpython-39/mujoco/sysid/report/templates
+      copying mujoco/sysid/py.typed -> build/lib.linux-x86_64-cpython-39/mujoco/sysid
+      running build_ext
+      Traceback (most recent call last):
+        File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py", line 363, in <module>
+          main()
+        File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py", line 345, in main
+          json_out['return_val'] = hook(**hook_input['kwargs'])
+        File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/pip/_vendor/pep517/in_process/_in_process.py", line 261, in build_wheel
+          return _build_backend().build_wheel(wheel_directory, config_settings,
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 441, in build_wheel
+          return _build(['bdist_wheel', '--dist-info-dir', str(metadata_directory)])
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 429, in _build
+          return self._build_with_temp_dir(
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 410, in _build_with_temp_dir
+          self.run_setup()
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+        File "<string>", line 357, in <module>
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/__init__.py", line 117, in setup
+          return distutils.core.setup(**attrs)  # type: ignore[return-value]
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/core.py", line 186, in setup
+          return run_commands(dist)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+          dist.run_commands()
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/dist.py", line 1000, in run_commands
+          self.run_command(cmd)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/dist.py", line 1107, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/command/bdist_wheel.py", line 370, in run
+          self.run_command("build")
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/cmd.py", line 341, in run_command
+          self.distribution.run_command(command)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/dist.py", line 1107, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+          cmd_obj.run()
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/command/build.py", line 135, in run
+          self.run_command(cmd_name)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/cmd.py", line 341, in run_command
+          self.distribution.run_command(command)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/dist.py", line 1107, in run_command
+          super().run_command(command)
+        File "/tmp/pip-build-env-v1kajkqk/overlay/lib/python3.9/site-packages/setuptools/_distutils/dist.py", line 1019, in run_command
+          cmd_obj.run()
+        File "<string>", line 154, in run
+        File "<string>", line 170, in _find_mujoco
+      RuntimeError: MUJOCO_PLUGIN_PATH environment variable is not set
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for mujoco
+ERROR: Could not build wheels for mujoco, which is required to install pyproject.toml-based projects
+
+
+failed
+
+CondaEnvException: Pip failed
+

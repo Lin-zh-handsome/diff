@@ -1,0 +1,116 @@
+{
+  "test": "PushT identical-snapshot replay",
+  "seed": 7,
+  "atol": 1e-10,
+  "actions": [
+    [
+      200,
+      280
+    ],
+    [
+      160,
+      340
+    ],
+    [
+      340,
+      230
+    ],
+    [
+      400,
+      180
+    ],
+    [
+      290,
+      250
+    ]
+  ],
+  "passed": true,
+  "record_errors": [
+    {
+      "step": 0,
+      "observation_max_abs": 0.0,
+      "reward_abs": 0.0,
+      "done_equal": true,
+      "info_max_abs": {
+        "pos_agent": 0.0,
+        "vel_agent": 0.0,
+        "block_pose": 0.0,
+        "goal_pose": 0.0,
+        "n_contacts": 0.0
+      }
+    },
+    {
+      "step": 1,
+      "observation_max_abs": 0.0,
+      "reward_abs": 0.0,
+      "done_equal": true,
+      "info_max_abs": {
+        "pos_agent": 0.0,
+        "vel_agent": 0.0,
+        "block_pose": 0.0,
+        "goal_pose": 0.0,
+        "n_contacts": 0.0
+      }
+    },
+    {
+      "step": 2,
+      "observation_max_abs": 0.0,
+      "reward_abs": 0.0,
+      "done_equal": true,
+      "info_max_abs": {
+        "pos_agent": 0.0,
+        "vel_agent": 0.0,
+        "block_pose": 0.0,
+        "goal_pose": 0.0,
+        "n_contacts": 0.0
+      }
+    },
+    {
+      "step": 3,
+      "observation_max_abs": 0.0,
+      "reward_abs": 0.0,
+      "done_equal": true,
+      "info_max_abs": {
+        "pos_agent": 0.0,
+        "vel_agent": 0.0,
+        "block_pose": 0.0,
+        "goal_pose": 0.0,
+        "n_contacts": 0.0
+      }
+    },
+    {
+      "step": 4,
+      "observation_max_abs": 0.0,
+      "reward_abs": 0.0,
+      "done_equal": true,
+      "info_max_abs": {
+        "pos_agent": 0.0,
+        "vel_agent": 0.0,
+        "block_pose": 0.0,
+        "goal_pose": 0.0,
+        "n_contacts": 0.0
+      }
+    }
+  ],
+  "final_state_errors": {
+    "agent": {
+      "position": 0.0,
+      "velocity": 0.0,
+      "force": 0.0,
+      "angle": 0.0,
+      "angular_velocity": 0.0,
+      "torque": 0.0
+    },
+    "block": {
+      "position": 0.0,
+      "velocity": 0.0,
+      "force": 0.0,
+      "angle": 0.0,
+      "angular_velocity": 0.0,
+      "torque": 0.0
+    },
+    "goal_pose": 0.0,
+    "n_contact_points_equal": true,
+    "latest_action": 0.0
+  }
+}

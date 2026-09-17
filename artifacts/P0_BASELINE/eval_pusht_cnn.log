@@ -1,0 +1,120 @@
+/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/wandb/apis/public.py:2997: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+Error initializing class at diffusion_policy.workspace.train_diffusion_unet_lowdim_workspace.TrainDiffusionUnetLowdimWorkspace: Error loading 'diffusion_policy.workspace.train_diffusion_unet_lowdim_workspace.TrainDiffusionUnetLowdimWorkspace':
+ImportError("cannot import name 'cached_download' from 'huggingface_hub' (/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/huggingface_hub/__init__.py)")
+Traceback (most recent call last):
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/utils.py", line 639, in _locate
+    obj = getattr(obj, part)
+AttributeError: module 'diffusion_policy.workspace' has no attribute 'train_diffusion_unet_lowdim_workspace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/utils.py", line 645, in _locate
+    obj = import_module(mod)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/hanjinwei/p1/project/diffusion_policy/diffusion_policy/workspace/train_diffusion_unet_lowdim_workspace.py", line 25, in <module>
+    from diffusion_policy.policy.diffusion_unet_lowdim_policy import DiffusionUnetLowdimPolicy
+  File "/home/hanjinwei/p1/project/diffusion_policy/diffusion_policy/policy/diffusion_unet_lowdim_policy.py", line 6, in <module>
+    from diffusers.schedulers.scheduling_ddpm import DDPMScheduler
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/diffusers/__init__.py", line 46, in <module>
+    from .pipeline_utils import DiffusionPipeline
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/diffusers/pipeline_utils.py", line 35, in <module>
+    from .dynamic_modules_utils import get_class_from_dynamic_module
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/diffusers/dynamic_modules_utils.py", line 29, in <module>
+    from huggingface_hub import HfFolder, cached_download, hf_hub_download, model_info
+ImportError: cannot import name 'cached_download' from 'huggingface_hub' (/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/huggingface_hub/__init__.py)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hanjinwei/p1/project/diffusion_policy/eval.py", line 64, in <module>
+    main()
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/hanjinwei/p1/project/diffusion_policy/eval.py", line 33, in main
+    cls = hydra.utils.get_class(cfg._target_)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/utils.py", line 32, in get_class
+    raise e
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/utils.py", line 23, in get_class
+    cls = _locate(path)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/utils.py", line 653, in _locate
+    raise ImportError(
+ImportError: Error loading 'diffusion_policy.workspace.train_diffusion_unet_lowdim_workspace.TrainDiffusionUnetLowdimWorkspace':
+ImportError("cannot import name 'cached_download' from 'huggingface_hub' (/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/huggingface_hub/__init__.py)")
+/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/wandb/apis/public.py:2997: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import parse_version
+Output path artifacts/P0_BASELINE/eval_pusht_cnn already exists! Overwrite? [y/N]: y
+Traceback (most recent call last):
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/utils.py", line 639, in _locate
+    obj = getattr(obj, part)
+AttributeError: module 'diffusion_policy.env_runner' has no attribute 'pusht_keypoints_runner'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/utils.py", line 645, in _locate
+    obj = import_module(mod)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/hanjinwei/p1/project/diffusion_policy/diffusion_policy/env_runner/pusht_keypoints_runner.py", line 10, in <module>
+    from diffusion_policy.env.pusht.pusht_keypoints_env import PushTKeypointsEnv
+  File "/home/hanjinwei/p1/project/diffusion_policy/diffusion_policy/env/pusht/pusht_keypoints_env.py", line 3, in <module>
+    from diffusion_policy.env.pusht.pusht_env import PushTEnv
+  File "/home/hanjinwei/p1/project/diffusion_policy/diffusion_policy/env/pusht/pusht_env.py", line 6, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 134, in _resolve_target
+    target = _locate(target)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/utils.py", line 648, in _locate
+    raise ImportError(
+ImportError: Error loading 'diffusion_policy.env_runner.pusht_keypoints_runner.PushTKeypointsRunner':
+ModuleNotFoundError("No module named 'pygame'")
+Are you sure that 'pusht_keypoints_runner' is importable from module 'diffusion_policy.env_runner'?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/hanjinwei/p1/project/diffusion_policy/eval.py", line 64, in <module>
+    main()
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/hanjinwei/p1/project/diffusion_policy/eval.py", line 48, in main
+    env_runner = hydra.utils.instantiate(
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 222, in instantiate
+    return instantiate_node(
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 325, in instantiate_node
+    _target_ = _resolve_target(node.get(_Keys.TARGET), full_key)
+  File "/home/hanjinwei/miniconda3/envs/robodiff/lib/python3.9/site-packages/hydra/_internal/instantiate/_instantiate2.py", line 139, in _resolve_target
+    raise InstantiationException(msg) from e
+hydra.errors.InstantiationException: Error locating target 'diffusion_policy.env_runner.pusht_keypoints_runner.PushTKeypointsRunner', see chained exception above.
+full_key: task.env_runner
