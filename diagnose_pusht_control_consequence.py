@@ -79,7 +79,7 @@ def sample_proxy(policy, data, mask, generator):
 
 
 def paired_plans(policy, scheduler, next_timestep, data, mask, source_timestep,
-                 depth, generator):
+                 depth, execution_steps, generator):
     proxy_clean = sample_proxy(policy, data, mask, generator)
     noise = torch.randn(proxy_clean.shape, device=proxy_clean.device,
                         dtype=proxy_clean.dtype, generator=generator)
@@ -104,7 +104,7 @@ def paired_plans(policy, scheduler, next_timestep, data, mask, source_timestep,
     reference_clean = reconstruct_clean(scheduler, reference_state, reference_epsilon, timestep)
     self_clean = reconstruct_clean(scheduler, self_state, self_epsilon, timestep)
     start = policy.n_obs_steps
-    end = start + policy.n_action_steps
+    end = start + execution_steps
     reference_plan = policy.normalizer['action'].unnormalize(
         reference_clean[:, start:end, :policy.action_dim])[0]
     self_plan = policy.normalizer['action'].unnormalize(
@@ -158,8 +158,10 @@ def pearson(x, y):
 @click.option('--source_timestep', default=90, show_default=True, type=int)
 @click.option('--depth', default=4, show_default=True, type=int)
 @click.option('--num_inference_steps', default=100, show_default=True, type=int)
+@click.option('--execution_steps', default=14, show_default=True, type=int,
+    help='Predicted actions to execute from each identical snapshot.')
 def main(checkpoint, output_dir, device, seeds, warmup_steps, source_timestep, depth,
-         num_inference_steps):
+         num_inference_steps, execution_steps):
     """Run matched Push-T action plans from identical simulator snapshots."""
     if warmup_steps < 0 or depth <= 0:
         raise click.BadParameter('warmup_steps must be nonnegative and depth positive')
@@ -167,6 +169,10 @@ def main(checkpoint, output_dir, device, seeds, warmup_steps, source_timestep, d
     output_dir.mkdir(parents=True, exist_ok=False)
     resolved_device = torch.device(device)
     cfg, policy = load_policy(checkpoint, resolved_device, output_dir)
+    max_execution_steps = policy.horizon - policy.n_obs_steps
+    if execution_steps <= 0 or execution_steps > max_execution_steps:
+        raise click.BadParameter(
+            f'execution_steps must be in [1, {max_execution_steps}] for this policy')
     scheduler = DDIMScheduler.from_config(policy.noise_scheduler.config)
     scheduler.set_timesteps(num_inference_steps, device=resolved_device)
     values = [int(value) for value in scheduler.timesteps.tolist()]
@@ -213,7 +219,8 @@ def main(checkpoint, output_dir, device, seeds, warmup_steps, source_timestep, d
             snapshot = env.get_state()
             data, mask = build_condition(policy, history, resolved_device)
             reference_plan, self_plan, metrics = paired_plans(
-                policy, scheduler, next_timestep, data, mask, source_timestep, depth, torch_generator)
+                policy, scheduler, next_timestep, data, mask, source_timestep, depth,
+                execution_steps, torch_generator)
             unclipped_action_rmse = float(np.sqrt(np.mean((reference_plan - self_plan) ** 2)))
             reference_plan = np.clip(reference_plan, env.action_space.low, env.action_space.high)
             self_plan = np.clip(self_plan, env.action_space.low, env.action_space.high)
@@ -225,6 +232,7 @@ def main(checkpoint, output_dir, device, seeds, warmup_steps, source_timestep, d
                 'source_timestep': source_timestep,
                 'target_timestep': metrics['target_timestep'],
                 'depth': depth,
+                'execution_steps': execution_steps,
                 **metrics,
                 'action_rmse_before_clip': unclipped_action_rmse,
                 'action_rmse': paired_action_rmse,
@@ -264,13 +272,14 @@ def main(checkpoint, output_dir, device, seeds, warmup_steps, source_timestep, d
         'warmup_steps': warmup_steps,
         'source_timestep': source_timestep,
         'depth': depth,
+        'execution_steps': execution_steps,
         'target_timestep': records[0]['target_timestep'],
         'num_inference_steps': num_inference_steps,
         'scheduler': 'DDIMScheduler eta=0.0 for paired exposure branch',
         'snapshot_control': 'get_state/set_state validated before this run',
         'reference_definition': 'analytical q state from a conditional model-sampled x_0 proxy and shared epsilon',
         'self_definition': 'same q source state followed by deterministic learned DDIM reverse steps',
-        'action_execution': 'open-loop n_action_steps plans, each restored to the identical snapshot',
+        'action_execution': 'open-loop predicted plans, each restored to the identical snapshot',
         'warning': 'Proxy-reference diagnostic; it is not expert-ground-truth action evaluation.',
         'elapsed_seconds': time.time() - started,
         'aggregate': {
