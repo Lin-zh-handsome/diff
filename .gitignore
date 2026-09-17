@@ -13,6 +13,10 @@ fuse.cfg
 
 *.ai
 
+# PEC-DP large model checkpoints are kept outside GitHub review commits.
+*.ckpt
+**/checkpoints/
+
 # Generation results
 results/
 
