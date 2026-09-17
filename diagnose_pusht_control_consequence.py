@@ -189,15 +189,25 @@ def main(checkpoint, output_dir, device, seeds, warmup_steps, source_timestep, d
             observation = env.reset()
             policy_obs = policy_observation(observation, policy.obs_dim)
             history = deque([policy_obs.copy()] * policy.n_obs_steps, maxlen=policy.n_obs_steps)
-            # A deterministic model-only warm-up supplies a noninitial snapshot context.
-            for _ in range(warmup_steps):
+            # Match native runner semantics: sample a plan, then execute its
+            # n_action_steps actions before replanning.  This supplies a
+            # noninitial but policy-reachable snapshot without needless redraws.
+            completed_warmup = 0
+            while completed_warmup < warmup_steps:
                 data, mask = build_condition(policy, history, resolved_device)
                 warm_plan = sample_proxy(policy, data, mask, torch_generator)
-                action = policy.normalizer['action'].unnormalize(
-                    warm_plan[:, policy.n_obs_steps, :policy.action_dim])[0].cpu().numpy()
-                action = np.clip(action, env.action_space.low, env.action_space.high)
-                observation, _, done, _ = env.step(action)
-                history.append(policy_observation(observation, policy.obs_dim))
+                warm_actions = policy.normalizer['action'].unnormalize(
+                    warm_plan[:, policy.n_obs_steps:policy.n_obs_steps + policy.n_action_steps,
+                              :policy.action_dim])[0].cpu().numpy()
+                for action in warm_actions:
+                    if completed_warmup >= warmup_steps:
+                        break
+                    action = np.clip(action, env.action_space.low, env.action_space.high)
+                    observation, _, done, _ = env.step(action)
+                    history.append(policy_observation(observation, policy.obs_dim))
+                    completed_warmup += 1
+                    if done:
+                        break
                 if done:
                     break
             snapshot = env.get_state()
