@@ -1,0 +1,14 @@
+defaults:
+  - train_diffusion_unet_lowdim_workspace
+  - _self_
+
+name: train_diffusion_unet_lowdim_self_exposure
+exp_name: pusht_lowdim_self_exposure_v1
+obs_as_local_cond: false
+obs_as_global_cond: false
+
+policy:
+  self_exposure_enabled: true
+  self_exposure_weight: 0.1
+  self_exposure_depth: 1
+  self_exposure_num_inference_steps: 100

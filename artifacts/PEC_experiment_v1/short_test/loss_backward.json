@@ -1,0 +1,17 @@
+{
+  "all_present_gradients_finite": true,
+  "batch_size": 4,
+  "checkpoint": "/home/hanjinwei/p1/project/diffusion_policy/artifacts/P0_BASELINE/checkpoints/pusht_lowdim_cnn_epoch0550.ckpt",
+  "losses": {
+    "l_dp": 0.01648551970720291,
+    "l_se": 0.016654424369335175,
+    "l_total": 0.01815096288919449
+  },
+  "self_exposure": {
+    "depth": 1,
+    "eta": 0.0,
+    "source_timestep": 86,
+    "target_timestep": 85
+  },
+  "total_loss_backward_completed": true
+}
