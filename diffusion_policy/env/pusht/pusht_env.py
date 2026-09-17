@@ -2,6 +2,7 @@ import gym
 from gym import spaces
 
 import collections
+import copy
 import numpy as np
 import pygame
 import pymunk
@@ -242,6 +243,78 @@ class PushTEnv(gym.Env):
 
     def _handle_collision(self, arbiter, space, data):
         self.n_contact_points += len(arbiter.contact_point_set.points)
+
+    @staticmethod
+    def _body_snapshot(body):
+        """Return all mutable Pymunk body fields used by Push-T dynamics."""
+        return {
+            'position': np.asarray(body.position, dtype=np.float64).copy(),
+            'velocity': np.asarray(body.velocity, dtype=np.float64).copy(),
+            'force': np.asarray(body.force, dtype=np.float64).copy(),
+            'angle': float(body.angle),
+            'angular_velocity': float(body.angular_velocity),
+            'torque': float(body.torque),
+        }
+
+    @staticmethod
+    def _restore_body(body, state, legacy_position_first=False):
+        # A non-centred T block changes geometric placement when its angle is
+        # assigned, so restore in the same ordering used by _set_state.
+        position = tuple(np.asarray(state['position'], dtype=np.float64))
+        velocity = tuple(np.asarray(state['velocity'], dtype=np.float64))
+        force = tuple(np.asarray(state['force'], dtype=np.float64))
+        if legacy_position_first:
+            body.position = position
+            body.angle = state['angle']
+        else:
+            body.angle = state['angle']
+            body.position = position
+        body.velocity = velocity
+        body.force = force
+        body.angular_velocity = state['angular_velocity']
+        body.torque = state['torque']
+
+    def get_state(self):
+        """Capture a replayable Push-T state without advancing the simulator.
+
+        The returned object is deliberately independent of the environment and
+        includes both physics and observation-RNG state.  It is intended for
+        paired-control experiments, not for dataset compatibility; _set_state
+        remains the legacy pose-only loader.
+        """
+        if self.space is None:
+            raise RuntimeError('reset() must be called before get_state().')
+        return {
+            'agent': self._body_snapshot(self.agent),
+            'block': self._body_snapshot(self.block),
+            'goal_pose': np.asarray(self.goal_pose, dtype=np.float64).copy(),
+            'latest_action': None if self.latest_action is None else np.asarray(
+                self.latest_action, dtype=np.float64).copy(),
+            'n_contact_points': int(self.n_contact_points),
+            'space_damping': float(self.space.damping),
+            'np_random_state': copy.deepcopy(self.np_random.bit_generator.state),
+            'seed': self._seed,
+        }
+
+    def set_state(self, state):
+        """Restore a state returned by :meth:`get_state` without a physics step."""
+        required = {'agent', 'block', 'goal_pose', 'latest_action',
+                    'n_contact_points', 'space_damping', 'np_random_state', 'seed'}
+        missing = required.difference(state)
+        if missing:
+            raise ValueError(f'Malformed Push-T snapshot; missing {sorted(missing)}')
+        if self.space is None:
+            raise RuntimeError('reset() must be called before set_state().')
+        self._restore_body(self.agent, state['agent'])
+        self._restore_body(self.block, state['block'],
+                           legacy_position_first=self.legacy)
+        self.goal_pose = np.asarray(state['goal_pose'], dtype=np.float64).copy()
+        self.latest_action = None if state['latest_action'] is None else np.asarray(
+            state['latest_action'], dtype=np.float64).copy()
+        self.n_contact_points = int(state['n_contact_points'])
+        self.space.damping = float(state['space_damping'])
+        self._seed = state['seed']
+        self.np_random.bit_generator.state = copy.deepcopy(state['np_random_state'])
 
     def _set_state(self, state):
         if isinstance(state, np.ndarray):
