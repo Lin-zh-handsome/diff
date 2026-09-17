@@ -164,7 +164,7 @@ def save_heatmaps(summary, output_dir):
 @click.option('--seeds', default='0,1,2,3,4', show_default=True,
               help='Shared diagnostic data/noise seeds.')
 @click.option('--target_timesteps', default='89,49,9', show_default=True,
-              help='Fixed target k values that are present on both 100- and 50-step DDIM grids.')
+              help='Fixed target k values on the selected DDIM schedule (default values are for 100 steps).')
 @click.option('--depths', default='1,2,4', show_default=True)
 @click.option('--num_inference_steps', default=100, show_default=True, type=int)
 def main(checkpoint, output_dir, device, batch_size, seeds, target_timesteps, depths,
@@ -250,6 +250,7 @@ def main(checkpoint, output_dir, device, batch_size, seeds, target_timesteps, de
         'target_timesteps_k': target_values,
         'depths_m': depth_values,
         'num_inference_steps': num_inference_steps,
+        'scheduler_timesteps': values,
         'scheduler': 'DDIMScheduler eta=0.0',
         'pairing': 'fixed target k; source is exactly m DDIM reverse transitions before k',
         'reference': 'analytical q(x_k | x_0, shared epsilon), then learned reference prediction',
