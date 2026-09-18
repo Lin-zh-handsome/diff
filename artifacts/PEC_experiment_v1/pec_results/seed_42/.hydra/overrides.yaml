@@ -1,0 +1,4 @@
+- training.device=cuda:0
+- training.seed=42
+- training.resume=false
+- logging.mode=disabled

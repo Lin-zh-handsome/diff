@@ -1,0 +1,5 @@
+- policy.self_exposure_enabled=false
+- policy.self_exposure_weight=0.0
+- training.seed=42
+- training.resume=false
+- logging.mode=disabled
